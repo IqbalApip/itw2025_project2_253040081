@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Company Profile</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home">Nijam</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#price">Price </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="py-5 mt-5 text-center">
+      <div class="container" data-aos="zoom-in-down" data-aos-duration="3000">
+        <h1 class="display-1 fw-bold text-center">Warung Nijam</h1>
+      </div>
+    </section>
+
+    <section id="about" class="py-5">
+      <div class="container" data-aos="fade-down" data-aos-duration="2000">
+        <h2 class="text-center">Tentang</h2>
+        <div data-aos="fade-down" data-aos-duration="2000">
+          <p class="text-center">
+            Warung Nijam adalah warung makan yang menyajikan hidangan
+            tradisional Indonesia seperti bubur ayam, kupat tahu, dan kupat
+            sayur. Kami menggunakan bahan-bahan segar dan resep sederhana untuk
+            menghadirkan cita rasa rumahan yang lezat dan berkualitas. Dengan
+            harga terjangkau dan pelayanan ramah, Warung Nijam siap menjadi
+            pilihan favorit untuk menikmati makanan sehari-hari.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="price" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Harga</h2>
+
+        <div class="d-flex justify-content-around">
+          <div
+            class="card shadow p-3 mb-5 bg-body-tertiary rounded"
+            style="width: 18rem"
+            data-aos="zoom-in"
+            data-aos-duration="1200"
+          >
+            <img src="img/bubur.jpg" class="card-img-top" alt="bubur" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Bubur Ayam</h5>
+              <p class="card-text">Rp8.000</p>
+              <a href="#" class="btn btn-dark">Beli</a>
+            </div>
+          </div>
+
+          <div
+            class="card shadow p-3 mb-5 bg-body-tertiary rounded"
+            style="width: 18rem"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
+            <img src="img/kupat sayur2.jpg" class="card-img-top" alt="sayur" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Kupat Sayur</h5>
+              <p class="card-text">Rp10.000</p>
+              <a href="#" class="btn btn-dark">Beli</a>
+            </div>
+          </div>
+
+          <div
+            class="card shadow p-3 mb-5 bg-body-tertiary rounded"
+            style="width: 18rem"
+            data-aos="zoom-in-up"
+            data-aos-duration="1200"
+          >
+            <img src="img/kupat tahu.jpg" class="card-img-top" alt="tahu" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Kupat Tahu</h5>
+              <p class="card-text">Rp10.000</p>
+              <a href="#" class="btn btn-dark">Beli</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="py-5">
+      <div class="container">
+        <h2 class="text-center">Gambar</h2>
+        <div class="row justify-content-center mb-3">
+          <div
+            class="col-md-5 text-center"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            <img src="img/sayur.jpg" class="img-thumbnail w-100" alt="sayur" />
+          </div>
+          <div
+            class="col-md-5 text-center"
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            <img src="img/tahu.jpg" class="img-thumbnail w-100" alt="tahu" />
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div
+            class="col-md-5 text-center"
+            data-aos="fade-up"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            <img
+              src="img/bubur ayam.jpg"
+              class="img-thumbnail w-100"
+              alt="bubur"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <section id="contact" class="py-5">
+        <div class="container">
+          <h2 class="text-center mb-4">Hubungi</h2>
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <input type="text" class="form-control mb-3" placeholder="nama" name="nama" />
+              <input
+                type="email"
+                class="form-control mb-3"
+                placeholder="email"
+                name="email"
+              />
+              <textarea
+                class="form-control mb-3"
+                placeholder="pesan"
+                name="pesan"
+              ></textarea>
+              <button type="submit" class="btn btn-dark w-100">Kirim</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
